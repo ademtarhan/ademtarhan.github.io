@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: url('images/background.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.contact-main{
+    width: 50;
+    height: 200;
+    float: right;
+    margin-top: 100px;
+}
+
+.link{
+    float: right;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin-top: 0px;
+    margin-right: 10px;
+}
+
+li{
+    
+    list-style: none;
+    margin-top: 100px;
+    margin-right: 10px;
+
+}
