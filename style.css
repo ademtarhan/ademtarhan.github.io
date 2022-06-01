@@ -38,3 +38,17 @@ li{
     margin-right: 10px;
 
 }
+
+.logo{
+    padding-left: 20px;
+    padding-top: 20px; 
+   
+}
+
+.text{
+    font-size: 60px;
+    color: black;
+    font-family: Avenir;
+    padding-left: 100px;
+    padding-top: 70px;
+}
