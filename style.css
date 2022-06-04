@@ -1,58 +1,98 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&display=swap");
 
-
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-body{
-    overflow-x: hidden;
+html {
+  width: 100%;
+  overflow-x: hidden;
 }
 
-.main{
-    width: 100%;
-    background-image: url('images/background.jpg');
-    background-position: center;
-    background-size: cover;
-    height: 100%;
+body {
+  width: 100%;
+  overflow-x: hidden;
+  background-image: url("images/background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: "Comfortaa", cursive !important;
 }
 
-.contact-main{
-    width: 50;
-    height: 200;
-    float: right;
-    margin-top: 100px;
+a {
+  text-decoration: none;
+  color: #212529;
 }
 
-.link{
-    float: right;
-    display: block;
-    justify-content: center;
-    align-items: center;
-    list-style: none;
-    margin-top: 0px;
-    margin-right: 10px;
+a:hover {
+  text-decoration: none;
+  color: #fff;
 }
 
-li{
-    
-    list-style: none;
-    margin-top: 100px;
-    margin-right: 10px;
-
+.container {
+  margin-top: 90px;
 }
 
-.logo{
-    padding-left: 20px;
-    padding-top: 20px; 
-   
+.myrow {
+  display: flex;
+  flex-direction: row;
+  justify-content: baseline;
+  align-items: center;
 }
 
-.text{
-    font-size: 60px;
-    color: black;
-    font-family: Avenir;
-    padding-left: 100px;
-    padding-top: 70px;
+.logo {
+  margin: 10px 40px;
+}
+
+.logo img {
+  width: 100px;
+  height: 100px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.wrap {
+  text-align: center;
+  padding: 30px 50px;
+}
+
+.wrap .h1 {
+  font-weight: 600 !important;
+  padding: 20px 0px !important;
+}
+
+.wrap .h2 {
+  font-weight: 500 !important;
+}
+
+.wrap .contact-item {
+  padding: 12px 0;
+  font-size: 1.2rem;
+  position: relative;
+  border: 0.5px solid #212529;
+  border-radius: 25px;
+  margin: 10px 0px;
+  transition: ease-in 0.3s;
+}
+
+.wrap .contact-item:hover {
+  background-color: #212529;
+  color: #fff !important;
+}
+
+.wrap .contact-item img {
+  width: 42px;
+  height: 42px;
+  position: absolute;
+  top: 5px;
+  right: 0px;
+}
+
+.copyright {
+  font-size: 0.8rem;
+  text-align: center;
+  margin-top: 50px;
+  padding: 5px 0px;
 }
