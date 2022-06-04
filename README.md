@@ -1,3 +1,3 @@
 # ademtarhan.github.io
 
-I creating my website with html
+I created my simple website with html and css.
