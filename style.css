@@ -68,6 +68,7 @@ a:hover {
 }
 
 .wrap .contact-item {
+  display: block;
   padding: 12px 0;
   font-size: 1.2rem;
   position: relative;
@@ -82,12 +83,17 @@ a:hover {
   color: #fff !important;
 }
 
-.wrap .contact-item img {
-  width: 37px;
-  height: 37px;
+.wrap .contact-item span {
+  padding-right: 50px;
+}
+
+.wrap .contact-item i {
+  font-size: 2.1rem;
   position: absolute;
-  top: 5px;
-  right: 10px;
+  top: 0px;
+  right: 8px;
+  border-radius: 50%;
+  padding: 0px 5px;
 }
 
 .copyright {
@@ -97,6 +103,8 @@ a:hover {
   padding: 5px 0px;
 }
 
-.wrap h2{
-    margin-top: 30px;
+.wrap h2 {
+  margin-top: 30px;
+  
+  color: #212529;
 }
